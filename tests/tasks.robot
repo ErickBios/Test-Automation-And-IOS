@@ -8,7 +8,7 @@ Test Teardown    Finish session
 
 *** Test Cases ***
 Deve poder cadastrar uma nova tarefa
-
+     [Tags]    heppy
     ${tesk_name}     Set Variable    Estudar Python
     Remove task from database     ${tesk_name}
     
