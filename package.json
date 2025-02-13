@@ -1,0 +1,20 @@
+{
+  "name": "markx-robot",
+  "version": "1.0.0",
+  "description": "Meu projeto em Robot framework com appium",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erick",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^2.15.0"
+  },
+  "devDependencies": {
+    "appium-uiautomator2-driver": "^4.0.1"
+  }
+}
